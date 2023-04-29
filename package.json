@@ -1,0 +1,19 @@
+{
+  "name": "tsgcode-parser",
+  "version": "1.0.0",
+  "description": "typescript gcode-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build && node dist/index.js",
+  	"clean": "tsc --build --clean"
+  },
+  "author": "CJM",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
